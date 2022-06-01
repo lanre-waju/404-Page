@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Epilogue:wght@400;500;600;700&family=Inconsolata:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Kumbh+Sans:wght@400;500;600;700&family=Lexend+Deca:wght@300;400;500;600;700&family=Lobster&family=Merriweather&family=Rubik:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inconsolata", monospace;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: ghostwhite;
+    position: relative;
+}
+
+
+/* Text 404 not found */
+
+.container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* Main grid */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.main-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-img img {
+    width: 70%;
+}
+
+.main-content {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-content h1 {
+    color: #333333;
+    font-family: "Space Mono", monospace;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.main-content p {
+    color: #4f4f4f;
+    font-family: "Space Mono", monospace;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.main-content button {
+    background-color: #333333;
+    color: white;
+    font-family: "Space Mono", monospace;
+    font-size: 14px;
+    font-weight: 700;
+    height: 68px;
+    width: 216px;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+.footer-container {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.footer-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #bdbdbd;
+    text-align: center;
+}
+
+.footer-text a {
+    color: #bdbdbd;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+    }
+}
